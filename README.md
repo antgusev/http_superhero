@@ -25,13 +25,14 @@ class YaUploader:
 
     def upload(self, file_path: str):
         """Метод загружает файлы по списку file_list на яндекс диск"""
+
         # Тут ваша логика
         # Функция может ничего не возвращать
 
 
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
-    path_to_file = ...
+    path_to_file = 'Users\Юлия\Pictures\IMG_20230407_190733.jpg'
     token = ...
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
